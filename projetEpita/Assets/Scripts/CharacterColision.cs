@@ -16,8 +16,12 @@ public class CharacterColision : MonoBehaviour {
 	{
 				if (other.gameObject.tag == "plateformePiege") {
 						other.gameObject.SetActive (false);
-				} else if (other.gameObject.tag == "vide") {
-					Application.LoadLevel(Application.loadedLevel);
+				} 
+	}
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.tag == "vide") {
+			Application.LoadLevel(Application.loadedLevel);
 				}
 	}
 }
