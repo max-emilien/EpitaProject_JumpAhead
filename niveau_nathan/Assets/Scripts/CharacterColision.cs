@@ -15,8 +15,8 @@ public class CharacterColision : MonoBehaviour {
 	void OnCollisionEnter(Collision other)
 	{
 		if (other.gameObject.tag == "plateformePiege") {
-						other.gameObject.SetActive (false);
-				} 
+			other.gameObject.SetActive (false);
+		} 
 	}
 	void OnTriggerEnter(Collider other)
 	{
