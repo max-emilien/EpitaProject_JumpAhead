@@ -14,7 +14,9 @@ public class CharacterColision : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision other)
 	{
+		Debug.Log ("detection de colision");
 		if (other.gameObject.tag == "plateformePiege") {
+			Debug.Log("détection de plateforme piege");
 			other.gameObject.SetActive (false);
 		} 
 	}
@@ -22,6 +24,7 @@ public class CharacterColision : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "vide") {
 			Application.LoadLevel(Application.loadedLevel);
+			Debug.Log("vide detecte");
 				}
 	}
 }

@@ -2,14 +2,20 @@
 using System.Collections;
 
 public class interrupteur : MonoBehaviour {
+	public GameObject objetActivable;
+	bool active;
 
-	// Use this for initialization
 	void Start () {
-	
+		active = true;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	void OnCollisionEnter(Collision other)
+	{
+		Debug.Log ("colision detecter");
+		if (other.gameObject.tag == "Player"){
+			Debug.Log("colision détécté avec player");
+			//animation.Play();
+			this.gameObject.SetActive ( false);
+			objetActivable.SetActive (true);
+		} 
 	}
 }
