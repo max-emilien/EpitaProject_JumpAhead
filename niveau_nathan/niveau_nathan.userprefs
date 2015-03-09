@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CharacterColision.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\interrupteur.cs">
     <Files>
-      <File FileName="Assets\Scripts\CharacterColision.cs" Line="31" Column="38" />
+      <File FileName="Assets\Scripts\CharacterColision.cs" Line="14" Column="3" />
       <File FileName="Assets\Scripts\changement_text.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ascensseur.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\interrupteur.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\interrupteur.cs" Line="12" Column="53" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
