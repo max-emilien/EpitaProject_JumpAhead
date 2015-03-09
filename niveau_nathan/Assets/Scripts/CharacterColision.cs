@@ -22,13 +22,15 @@ public class CharacterColision : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider other)
 	{
+		Debug.Log ("detection de triger");
 		if (other.gameObject.tag == "vide") 
 		{
 			Application.LoadLevel (Application.loadedLevel);
 			//Debug.Log("vide detecte");
 		} 
-		else if (other.gameObject.tag == "finish") 
+		else if (other.gameObject.tag == "Finish") 
 		{
+			Debug.Log("détection fin niveau");
 			Application.LoadLevel(index_niveau_suivant);
 		}
 	}
