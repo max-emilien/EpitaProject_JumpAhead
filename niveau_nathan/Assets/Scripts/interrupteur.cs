@@ -9,7 +9,7 @@ public class interrupteur : MonoBehaviour {
 		Debug.Log ("colision detecter");
 		if (other.gameObject.tag == "Player"){
 			Debug.Log("colision détécté avec player");
-			this.animation.Play("activation interrupteur");
+			//this.animation.Play("activation interrupteur");
 			this.rigidbody.isKinematic = true;
 			this.gameObject.SetActive (false);
 			objetActivable.SetActive (true);

@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class CharacterColision : MonoBehaviour {
-
+	public int index_niveau_suivant;
 	// Use this for initialization
 	void Start () {
 	
@@ -14,17 +14,22 @@ public class CharacterColision : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision other)
 	{
-		Debug.Log ("detection de colision");
+		//Debug.Log ("detection de colision");
 		if (other.gameObject.tag == "plateformePiege") {
-			Debug.Log("détection de plateforme piege");
+			//Debug.Log("détection de plateforme piege");
 			other.gameObject.SetActive (false);
 		} 
 	}
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.tag == "vide") {
-			Application.LoadLevel(Application.loadedLevel);
-			Debug.Log("vide detecte");
-				}
+		if (other.gameObject.tag == "vide") 
+		{
+			Application.LoadLevel (Application.loadedLevel);
+			//Debug.Log("vide detecte");
+		} 
+		else if (other.gameObject.tag == "finish") 
+		{
+			Application.LoadLevel(index_niveau_suivant);
+		}
 	}
 }

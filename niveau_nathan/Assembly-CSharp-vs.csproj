@@ -48,7 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CharacterColision.cs" />
      <Compile Include="Assets\Scripts\MenuChoice.cs" />
+     <Compile Include="Assets\Scripts\ascensseur.cs" />
+     <Compile Include="Assets\Scripts\changement_text.cs" />
      <Compile Include="Assets\Scripts\interrupteur.cs" />
+     <Compile Include="Assets\Scripts\moveInterrupteur.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
