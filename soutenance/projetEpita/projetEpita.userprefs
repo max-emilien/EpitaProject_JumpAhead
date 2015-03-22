@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CharacterColision.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CharacterColision.cs" Line="16" Column="38" />
+      <File FileName="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\AbstractClasses\CustomActionScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnTriggerEnter.cs" Line="1" Column="1" />
+      <File FileName="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\MovementScripts\MoveScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\ViewScripts\PitchScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CharacBeh.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

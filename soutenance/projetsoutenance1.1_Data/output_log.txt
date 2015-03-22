@@ -1,0 +1,177 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     1972 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.088 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 3.785465 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 817.
+Total: 0.884509 ms (FindLiveObjects: 0.046186 ms CreateObjectMapping: 0.013562 ms MarkObjects: 0.199775 ms  DeleteObjects: 0.037022 ms)
+
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1.1_Data\Managed\Boo.Lang.dll (this message is harmless)
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 1.315217 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 0.550206 ms (FindLiveObjects: 0.021993 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.132694 ms  DeleteObjects: 0.003299 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.085311 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 2.080594 ms (FindLiveObjects: 0.085041 ms CreateObjectMapping: 0.043620 ms MarkObjects: 0.379756 ms  DeleteObjects: 0.012463 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.144327 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 2.439823 ms (FindLiveObjects: 0.114733 ms CreateObjectMapping: 0.064148 ms MarkObjects: 0.515749 ms  DeleteObjects: 0.016128 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 1.458175 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 0.675570 ms (FindLiveObjects: 0.029324 ms CreateObjectMapping: 0.015762 ms MarkObjects: 0.142958 ms  DeleteObjects: 0.004398 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.460693 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.742259 ms (FindLiveObjects: 0.066713 ms CreateObjectMapping: 0.042154 ms MarkObjects: 0.324405 ms  DeleteObjects: 0.009164 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.206276 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.987122 ms (FindLiveObjects: 0.086141 ms CreateObjectMapping: 0.058649 ms MarkObjects: 0.396984 ms  DeleteObjects: 0.012463 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.180617 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 2.932846 ms (FindLiveObjects: 0.099704 ms CreateObjectMapping: 0.067447 ms MarkObjects: 0.501454 ms  DeleteObjects: 0.018328 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+detection plateforme qui tombe
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+detection plateforme qui tombe 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.194546 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 2.069964 ms (FindLiveObjects: 0.085775 ms CreateObjectMapping: 0.109234 ms MarkObjects: 0.399550 ms  DeleteObjects: 0.012463 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+detection plateforme qui tombe
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+detection plateforme qui tombe 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.052321 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.922240 ms (FindLiveObjects: 0.084675 ms CreateObjectMapping: 0.052418 ms MarkObjects: 0.350431 ms  DeleteObjects: 0.013196 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.147260 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.940568 ms (FindLiveObjects: 0.085775 ms CreateObjectMapping: 0.053151 ms MarkObjects: 0.363261 ms  DeleteObjects: 0.012829 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.090076 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.918941 ms (FindLiveObjects: 0.085775 ms CreateObjectMapping: 0.056450 ms MarkObjects: 0.342733 ms  DeleteObjects: 0.012096 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 5.095917 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 246.
+Total: 3.705188 ms (FindLiveObjects: 0.049852 ms CreateObjectMapping: 0.105569 ms MarkObjects: 0.669338 ms  DeleteObjects: 0.990811 ms)
+

@@ -1,0 +1,262 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     1972 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.050 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\System.dll (this message is harmless)
+Level '' (5) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (5) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (5) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (4) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (4) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (4) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (3) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (3) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (2) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (2) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+UnloadTime: 4.689395 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 817.
+Total: 1.446810 ms (FindLiveObjects: 0.170816 ms CreateObjectMapping: 0.032623 ms MarkObjects: 0.297279 ms  DeleteObjects: 0.043987 ms)
+
+Platform assembly: C:\Users\natha_000\Desktop\Projet\Sup\EpitaProject_JumpAhead\soutenance\projetsoutenance1_Data\Managed\Boo.Lang.dll (this message is harmless)
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.475350 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 246.
+Total: 2.274868 ms (FindLiveObjects: 0.037022 ms CreateObjectMapping: 0.033356 ms MarkObjects: 0.493755 ms  DeleteObjects: 0.575864 ms)
+
+UnloadTime: 0.636347 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 0.917131 ms (FindLiveObjects: 0.077710 ms CreateObjectMapping: 0.033723 ms MarkObjects: 0.180347 ms  DeleteObjects: 0.034456 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+detection plateforme qui tombe
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+detection plateforme qui tombe 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.014193 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.892913 ms (FindLiveObjects: 0.092739 ms CreateObjectMapping: 0.043987 ms MarkObjects: 0.369125 ms  DeleteObjects: 0.012463 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.766373 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.858823 ms (FindLiveObjects: 0.087241 ms CreateObjectMapping: 0.042887 ms MarkObjects: 0.368025 ms  DeleteObjects: 0.012463 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 1.341974 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 0.528578 ms (FindLiveObjects: 0.025659 ms CreateObjectMapping: 0.012463 ms MarkObjects: 0.137093 ms  DeleteObjects: 0.003665 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.116096 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.894012 ms (FindLiveObjects: 0.084675 ms CreateObjectMapping: 0.046186 ms MarkObjects: 0.400649 ms  DeleteObjects: 0.012096 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.027022 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.862488 ms (FindLiveObjects: 0.091639 ms CreateObjectMapping: 0.046919 ms MarkObjects: 0.347864 ms  DeleteObjects: 0.012463 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 1.107009 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 0.526012 ms (FindLiveObjects: 0.020893 ms CreateObjectMapping: 0.013562 ms MarkObjects: 0.141858 ms  DeleteObjects: 0.004032 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.128926 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 2.246643 ms (FindLiveObjects: 0.115832 ms CreateObjectMapping: 0.090540 ms MarkObjects: 0.534810 ms  DeleteObjects: 0.017228 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.127093 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.961459 ms (FindLiveObjects: 0.084308 ms CreateObjectMapping: 0.052418 ms MarkObjects: 0.424842 ms  DeleteObjects: 0.012096 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.495511 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 1.386694 ms (FindLiveObjects: 0.071112 ms CreateObjectMapping: 0.043987 ms MarkObjects: 0.300578 ms  DeleteObjects: 0.009163 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 2.215852 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 246.
+Total: 1.471003 ms (FindLiveObjects: 0.016495 ms CreateObjectMapping: 0.022726 ms MarkObjects: 0.296913 ms  DeleteObjects: 0.461131 ms)
+
+Level '' (4) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (4) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (4) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (4) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (3) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (3) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+Level '' (2) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 275)
+
+UnloadTime: 1.089414 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 0.834656 ms (FindLiveObjects: 0.038488 ms CreateObjectMapping: 0.028225 ms MarkObjects: 0.196475 ms  DeleteObjects: 0.035922 ms)
+
+detection de triger
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 2.556019 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 246.
+Total: 1.933601 ms (FindLiveObjects: 0.023826 ms CreateObjectMapping: 0.038855 ms MarkObjects: 0.351164 ms  DeleteObjects: 0.606655 ms)
+

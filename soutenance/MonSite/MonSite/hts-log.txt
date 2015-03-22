@@ -1,0 +1,39 @@
+HTTrack3.48-19+htsswf+htsjava launched on Tue, 10 Mar 2015 21:28:53 at http://brave-cowards-studio.e-monsite.com/ +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv
+(winhttrack -qwr2%e1C2%P%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "fr, en, *" http://brave-cowards-studio.e-monsite.com/ -O1 "C:\Users\max-emilien\Documents\Projet EPITA\MonSite\MonSite" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:28:54	Warning: 	Note: due to brave-cowards-studio.e-monsite.com remote robots.txt rules, links beginning with these path will be forbidden: /storage/do_xml/id/ (see in the options to disable this)
+21:29:27	Warning: 	Found for brave-cowards-studio.e-monsite.com/contact/
+21:29:27	Warning: 	File has moved from brave-cowards-studio.e-monsite.com/contact/ to http://brave-cowards-studio.e-monsite.com/contact/contact.html
+21:29:27	Warning: 	Retry after error -4 (Incorrect length (15 Bytes, 108 expected)) at link brave-cowards-studio.e-monsite.com/medias/album/picture-beach-wolfgang-staudt.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:28	Warning: 	Retry after error -4 (Incorrect length (15 Bytes, 106 expected)) at link brave-cowards-studio.e-monsite.com/medias/album/picture-malibu-beach-gibffe.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:28	Warning: 	file not stored in cache due to bogus state (broken size, expected 108 got 15): brave-cowards-studio.e-monsite.com/medias/album/picture-beach-wolfgang-staudt.jpg?fx=c_100_100
+21:29:28	Warning: 	Retry after error -4 (Incorrect length (15 Bytes, 106 expected)) at link brave-cowards-studio.e-monsite.com/medias/album/picture-beach-feet-melgupta.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:28	Warning: 	file not stored in cache due to bogus state (broken size, expected 106 got 15): brave-cowards-studio.e-monsite.com/medias/album/picture-malibu-beach-gibffe.jpg?fx=c_100_100
+21:29:28	Warning: 	Retry after error -4 (Incorrect length (15 Bytes, 116 expected)) at link brave-cowards-studio.e-monsite.com/medias/album/picture-beautiful-beach-johan-larsson.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:28	Warning: 	file not stored in cache due to bogus state (broken size, expected 106 got 15): brave-cowards-studio.e-monsite.com/medias/album/picture-beach-feet-melgupta.jpg?fx=c_100_100
+21:29:29	Warning: 	Retry after error -4 (Incorrect length (15 Bytes, 111 expected)) at link brave-cowards-studio.e-monsite.com/medias/album/picture-beach-huts-peter-pearson.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:29	Warning: 	file not stored in cache due to bogus state (broken size, expected 116 got 15): brave-cowards-studio.e-monsite.com/medias/album/picture-beautiful-beach-johan-larsson.jpg?fx=c_100_100
+21:29:29	Warning: 	file not stored in cache due to bogus state (broken size, expected 111 got 15): brave-cowards-studio.e-monsite.com/medias/album/picture-beach-huts-peter-pearson.jpg?fx=c_100_100
+21:29:31	Warning: 	Retry after error -4 (Incorrect length (15 Bytes, 108 expected)) at link brave-cowards-studio.e-monsite.com/medias/album/picture-beach-wolfgang-staudt.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:31	Warning: 	Retry after error -4 (Incorrect length (15 Bytes, 106 expected)) at link brave-cowards-studio.e-monsite.com/medias/album/picture-malibu-beach-gibffe.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:31	Warning: 	Retry after error -4 (Incorrect length (15 Bytes, 106 expected)) at link brave-cowards-studio.e-monsite.com/medias/album/picture-beach-feet-melgupta.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:31	Warning: 	Retry after error -4 (Incorrect length (15 Bytes, 116 expected)) at link brave-cowards-studio.e-monsite.com/medias/album/picture-beautiful-beach-johan-larsson.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:31	Warning: 	file not stored in cache due to bogus state (broken size, expected 108 got 15): brave-cowards-studio.e-monsite.com/medias/album/picture-beach-wolfgang-staudt.jpg?fx=c_100_100
+21:29:31	Warning: 	Retry after error -4 (Incorrect length (15 Bytes, 111 expected)) at link brave-cowards-studio.e-monsite.com/medias/album/picture-beach-huts-peter-pearson.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:31	Warning: 	file not stored in cache due to bogus state (broken size, expected 106 got 15): brave-cowards-studio.e-monsite.com/medias/album/picture-beach-feet-melgupta.jpg?fx=c_100_100
+21:29:31	Warning: 	file not stored in cache due to bogus state (broken size, expected 116 got 15): brave-cowards-studio.e-monsite.com/medias/album/picture-beautiful-beach-johan-larsson.jpg?fx=c_100_100
+21:29:31	Warning: 	file not stored in cache due to bogus state (broken size, expected 106 got 15): brave-cowards-studio.e-monsite.com/medias/album/picture-malibu-beach-gibffe.jpg?fx=c_100_100
+21:29:32	Error: 	"Incorrect length (15 Bytes, 108 expected)" (-4) after 2 retries at link brave-cowards-studio.e-monsite.com/medias/album/picture-beach-wolfgang-staudt.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:32	Error: 	"Incorrect length (15 Bytes, 106 expected)" (-4) after 2 retries at link brave-cowards-studio.e-monsite.com/medias/album/picture-malibu-beach-gibffe.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:32	Error: 	"Incorrect length (15 Bytes, 106 expected)" (-4) after 2 retries at link brave-cowards-studio.e-monsite.com/medias/album/picture-beach-feet-melgupta.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:32	Error: 	"Incorrect length (15 Bytes, 116 expected)" (-4) after 2 retries at link brave-cowards-studio.e-monsite.com/medias/album/picture-beautiful-beach-johan-larsson.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+21:29:32	Warning: 	file not stored in cache due to bogus state (broken size, expected 111 got 15): brave-cowards-studio.e-monsite.com/medias/album/picture-beach-huts-peter-pearson.jpg?fx=c_100_100
+21:29:32	Error: 	"Incorrect length (15 Bytes, 111 expected)" (-4) after 2 retries at link brave-cowards-studio.e-monsite.com/medias/album/picture-beach-huts-peter-pearson.jpg?fx=c_100_100 (from brave-cowards-studio.e-monsite.com/)
+
+HTTrack Website Copier/3.48-19 mirror complete in 39 seconds : 56 links scanned, 36 files written (1308943 bytes overall) [1106811 bytes received at 28379 bytes/sec], 311273 bytes transferred using HTTP compression in 7 files, ratio 27%, 1.0 requests per connection
+(5 errors, 23 warnings, 0 messages)

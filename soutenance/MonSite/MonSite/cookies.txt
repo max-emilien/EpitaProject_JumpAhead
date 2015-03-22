@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.e-monsite.com	TRUE	/	FALSE	1999999999	__cfduid	dc41fcd8b0ce45ccc0c380630d9e6cf4b1426019339
+unity3d.com	TRUE	/	FALSE	1999999999	SERVERID	varnish02
+ionis-group.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	vwiw0e45piv3a2454tdixm45
+e-monsite.com	TRUE	/	FALSE	1999999999	utm_campaign	network_bottom_link
+
