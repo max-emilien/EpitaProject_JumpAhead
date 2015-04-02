@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{DE295B65-764E-1A4A-7BEB-1CE1C438BE2A}</ProjectGuid>
+	<ProjectGuid>{7A8AD3EC-4F84-3320-A652-2F3673633496}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -80,6 +80,10 @@
      <Compile Include="Assets\Scripts\CharacterBahaviour.cs" />
      <Compile Include="Assets\Scripts\CharacterColision.cs" />
      <Compile Include="Assets\Scripts\MenuChoice.cs" />
+     <Compile Include="Assets\Scripts\ascensseur.cs" />
+     <Compile Include="Assets\Scripts\changement_text.cs" />
+     <Compile Include="Assets\Scripts\interrupteur.cs" />
+     <Compile Include="Assets\Scripts\moveInterrupteur.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
@@ -102,7 +106,7 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/natha_000/Desktop/Projet/EpitaProject_JumpAhead/projetEpita3/projetEpita/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/natha_000/Desktop/Projet/Sup/EpitaProject_JumpAhead/projetEpita3/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
@@ -110,7 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{2D832287-4B1A-A026-2B07-2EBAB6525B73}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{715716F1-C723-AFB0-2B2A-3C2AE75C4D44}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
