@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\projetEpita3\Assets\Scripts\CharacterColision.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\Documents\test\Assets\Scripts\CharacterColision.cs">
     <Files>
-      <File FileName="..\projetEpita3\Assets\Scripts\CharacterColision.cs" Line="14" Column="3" />
+      <File FileName="..\..\..\..\..\Documents\test\Assets\Scripts\CharacterColision.cs" Line="28" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
