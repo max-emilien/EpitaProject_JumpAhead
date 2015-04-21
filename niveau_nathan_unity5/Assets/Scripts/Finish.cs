@@ -5,6 +5,8 @@ public class Finish : MonoBehaviour {
 	public int next_level;
 	void OnTriggerEnter(Collider other)
 	{
-		Application.LoadLevel (next_level);
+		if (other.gameObject.tag == "Player") {
+			Application.LoadLevel (next_level);
+		}
 	}
 }

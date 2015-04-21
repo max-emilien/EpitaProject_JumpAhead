@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\CharacterColision.cs" />
      <Compile Include="Assets\Scripts\Finish.cs" />
      <Compile Include="Assets\Scripts\MenuChoice.cs" />
+     <Compile Include="Assets\Scripts\PlateformeQuiTombe.cs" />
      <Compile Include="Assets\Scripts\ascensseur.cs" />
      <Compile Include="Assets\Scripts\changement_text.cs" />
      <Compile Include="Assets\Scripts\interrupteur.cs" />
