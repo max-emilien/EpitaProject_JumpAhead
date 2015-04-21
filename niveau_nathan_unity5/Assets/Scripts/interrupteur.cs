@@ -6,9 +6,9 @@ public class interrupteur : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other)
 	{
-		Debug.Log ("colision detecter");
+		//Debug.Log ("colision detecter");
 		if (other.gameObject.tag == "Player"){
-			Debug.Log("colision détécté avec player");
+			//Debug.Log("colision détécté avec player");
 			//this.animation.Play("activation interrupteur");
 			this.gameObject.SetActive (false);
 			objetActivable.SetActive (true);

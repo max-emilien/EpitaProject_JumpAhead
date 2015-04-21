@@ -46,14 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Change_Camera.cs" />
      <Compile Include="Assets\Scripts\CharacterColision.cs" />
      <Compile Include="Assets\Scripts\Finish.cs" />
      <Compile Include="Assets\Scripts\MenuChoice.cs" />
-     <Compile Include="Assets\Scripts\WowCamera.cs.cs" />
      <Compile Include="Assets\Scripts\ascensseur.cs" />
      <Compile Include="Assets\Scripts\changement_text.cs" />
      <Compile Include="Assets\Scripts\interrupteur.cs" />
-     <Compile Include="Assets\Scripts\moveInterrupteur.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
