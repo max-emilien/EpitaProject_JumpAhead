@@ -28,6 +28,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		Vector3 m_CapsuleCenter;
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
+		private bool first_jump; // nathan : ajout de cette ligne
 		
 		
 		void Start()
@@ -40,6 +41,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			
 			m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
+			first_jump = false; // nathan : ajout de cette ligne
 		}
 		
 		void Update()
@@ -49,6 +51,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			} else {
 				m_MoveSpeedMultiplier = 1;
 			}
+			//first_jump = first_jump && (!m_IsGrounded);
+
 		}
 		public void Move(Vector3 move, bool crouch, bool jump)
 		{
@@ -66,7 +70,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			ApplyExtraTurnRotation();
 			
 			// control and velocity handling is different when grounded and airborne:
-			if (m_IsGrounded)
+			if (m_IsGrounded||first_jump) // nathan : m_IsGrounded devient m_IsGrounded||first_jump
 			{
 				HandleGroundedMovement(crouch, jump);
 			}
@@ -173,13 +177,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		void HandleGroundedMovement(bool crouch, bool jump)
 		{
 			// check whether conditions are right to allow a jump:
-			if (jump && !crouch && m_Animator.GetCurrentAnimatorStateInfo(0).IsName("Grounded"))
+			if (jump && !crouch && (m_Animator.GetCurrentAnimatorStateInfo(0).IsName("Grounded")||first_jump)) //nathan : m_Animator.GetCurrentAnimatorStateInfo(0).IsName("Grounded") devient (m_Animator.GetCurrentAnimatorStateInfo(0).IsName("Grounded")||first_jump)
 			{
 				// jump!
 				m_Rigidbody.velocity = new Vector3(m_Rigidbody.velocity.x, m_JumpPower, m_Rigidbody.velocity.z);
 				m_IsGrounded = false;
 				m_Animator.applyRootMotion = false;
 				m_GroundCheckDistance = 0.1f;
+				first_jump = (!first_jump); //nathan :  ajout de cette ligne
 			}
 		}
 		
@@ -230,3 +235,4 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		}
 	}
 }
+

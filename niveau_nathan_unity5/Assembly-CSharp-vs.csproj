@@ -83,8 +83,6 @@
      <Compile Include="Assets\Scripts\MenuChoice.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\PlateformeQuiTombe.cs" />
-     <Compile Include="Assets\Scripts\ThirdPersonCharacter.cs" />
-     <Compile Include="Assets\Scripts\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\Scripts\ascensseur.cs" />
      <Compile Include="Assets\Scripts\changement_text.cs" />
      <Compile Include="Assets\Scripts\interrupteur.cs" />
