@@ -175,7 +175,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			m_Rigidbody.AddForce(extraGravityForce);
 			m_GroundCheckDistance = m_Rigidbody.velocity.y < 0 ? m_OrigGroundCheckDistance : 0.01f;
 			m_Rigidbody.velocity = new Vector3(0, m_Rigidbody.velocity.y, 0);
-			if (Input.GetAxis("Vertical") > 0 ){
+			if (Input.GetKey (KeyCode.Z)) {
 				m_Rigidbody.AddForce(m_Rigidbody.transform.forward *1000);//constante pour déplacement vers l'avant aérien
 				m_Animator.SetFloat("Jump", m_Rigidbody.velocity.y);
 			}
