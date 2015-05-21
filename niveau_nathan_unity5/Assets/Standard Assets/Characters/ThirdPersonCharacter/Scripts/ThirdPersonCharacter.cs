@@ -9,7 +9,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	{
 		[SerializeField] float m_MovingTurnSpeed = 360;
 		[SerializeField] float m_StationaryTurnSpeed = 180;
-		[SerializeField] float m_JumpPower = 12f;
+		[SerializeField] float m_JumpPower = 12f; //variable pour augmenter la valeur de saut
 		[Range(1f, 4f)][SerializeField] float m_GravityMultiplier = 2f;
 		[SerializeField] float m_RunCycleLegOffset = 0.2f; //specific to the character in sample assets, will need to be modified to work with others
 		[SerializeField] float m_MoveSpeedMultiplier = 1f;
@@ -46,10 +46,12 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		
 		void Update()
 		{
-			if (Input.GetKey (KeyCode.LeftControl)) {
-				m_MoveSpeedMultiplier = 2;
-			} else {
-				m_MoveSpeedMultiplier = 1;
+			if (Input.anyKeyDown) {
+				if (Input.GetKey (KeyCode.LeftControl)) {
+					m_MoveSpeedMultiplier = 2; //valeur pour la vitesse de course
+				} else {
+					m_MoveSpeedMultiplier = 1;
+				}
 			}
 			//first_jump = first_jump && (!m_IsGrounded);
 
@@ -70,9 +72,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			ApplyExtraTurnRotation();
 			
 			// control and velocity handling is different when grounded and airborne:
-			if (m_IsGrounded||first_jump) // nathan : m_IsGrounded devient m_IsGrounded||first_jump
-			{
-				HandleGroundedMovement(crouch, jump);
+			if (m_IsGrounded) { // nathan : m_IsGrounded devient m_IsGrounded||first_jump
+				HandleGroundedMovement (crouch, jump);
+			} else if (first_jump) {
+				HandleGroundedMovement (crouch, jump);
+				HandleAirborneMovement();
 			}
 			else
 			{
@@ -169,8 +173,12 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			// apply extra gravity from multiplier:
 			Vector3 extraGravityForce = (Physics.gravity * m_GravityMultiplier) - Physics.gravity;
 			m_Rigidbody.AddForce(extraGravityForce);
-			
 			m_GroundCheckDistance = m_Rigidbody.velocity.y < 0 ? m_OrigGroundCheckDistance : 0.01f;
+			m_Rigidbody.velocity = new Vector3(0, m_Rigidbody.velocity.y, 0);
+			if (Input.GetKey (KeyCode.Z)) {
+				m_Rigidbody.AddForce(m_Rigidbody.transform.forward *1000);//constante pour déplacement vers l'avant aérien
+				m_Animator.SetFloat("Jump", m_Rigidbody.velocity.y);
+			}
 		}
 		
 		
@@ -200,10 +208,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		{
 			// we implement this function to override the default root motion.
 			// this allows us to modify the positional speed before it's applied.
-			if (m_IsGrounded && Time.deltaTime > 0)
-			{
+			if (m_IsGrounded && Time.deltaTime > 0) {
 				Vector3 v = (m_Animator.deltaPosition * m_MoveSpeedMultiplier) / Time.deltaTime;
-				
 				// we preserve the existing y part of the current velocity.
 				v.y = m_Rigidbody.velocity.y;
 				m_Rigidbody.velocity = v;

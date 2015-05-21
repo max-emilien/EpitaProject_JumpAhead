@@ -13,4 +13,8 @@ public class Change_Camera : MonoBehaviour
 		first.gameObject.SetActive (vue_first_perso);
 		third.gameObject.SetActive (!(vue_first_perso));
 	}
+	/*void Update()
+	{
+		if
+	}*/
 }
