@@ -3,7 +3,7 @@ using System.Collections;
 
 public class save1 : MonoBehaviour {
 
-	// Use this for initialization
+	// placer le prefab au niveau du spawn initial
 	void OnTriggerEnter(Collider other)
 	{
 		PlayerPrefs.SetInt ("niveau", 1);
