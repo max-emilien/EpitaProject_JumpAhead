@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs">
+    <Files>
+      <File FileName="testMap1.V.0.2.sln" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\save\level 1\loadLevel1.cs" Line="14" Column="65" />
+      <File FileName="Assets\Scripts\save\level 1\save1.cs" Line="10" Column="40" />
+      <File FileName="Assets\Scripts\click_continue.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\click_newgame.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PersoRespawn.cs" Line="21" Column="37" />
+      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="22" Column="68" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
