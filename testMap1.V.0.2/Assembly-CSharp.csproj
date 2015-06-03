@@ -101,15 +101,11 @@
      <Compile Include="Assets\Scripts\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\Scripts\ascensseur.cs" />
      <Compile Include="Assets\Scripts\changement_text.cs" />
-     <Compile Include="Assets\Scripts\click_continue.cs" />
      <Compile Include="Assets\Scripts\click_newgame.cs" />
      <Compile Include="Assets\Scripts\enigme1.cs" />
      <Compile Include="Assets\Scripts\interrupteur.cs" />
      <Compile Include="Assets\Scripts\loadlevel.cs" />
      <Compile Include="Assets\Scripts\rotation_souris.cs" />
-     <Compile Include="Assets\Scripts\save\level 1\script\loadLevel1.cs" />
-     <Compile Include="Assets\Scripts\save\level 1\script\save1.cs" />
-     <Compile Include="Assets\Scripts\save\level 1\script\save2.cs" />
      <None Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
