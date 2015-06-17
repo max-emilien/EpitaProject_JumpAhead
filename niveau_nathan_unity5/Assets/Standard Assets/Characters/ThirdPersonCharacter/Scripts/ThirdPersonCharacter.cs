@@ -29,6 +29,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 		private bool first_jump; // nathan : ajout de cette ligne
+		public bool possibilite_dash; // nathan : ajout de cette ligne
+		public bool in_dash;
+		public float time_start_dash;
 		
 		
 		void Start()
@@ -42,19 +45,36 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
 			first_jump = false; // nathan : ajout de cette ligne
+			in_dash = false;
 		}
 		
 		void Update()
 		{
-			if (Input.anyKeyDown) {
+			if (Input.anyKey) {
 				if (Input.GetKey (KeyCode.LeftControl)) {
 					m_MoveSpeedMultiplier = 2; //valeur pour la vitesse de course
 				} else {
 					m_MoveSpeedMultiplier = 1;
 				}
+				if ((possibilite_dash)&&(Input.GetKey(KeyCode.A))&&(!in_dash))
+				    {
+					if (m_IsGrounded)
+					{
+						m_Rigidbody.AddForce(m_Rigidbody.transform.forward *10000);
+					}
+					else
+					{
+						m_Rigidbody.AddForce(m_Rigidbody.transform.forward *10000);
+					}
+					in_dash = true;
+					time_start_dash = Time.time;
+				}
+			}
+			if (in_dash)
+			{
+				in_dash = time_start_dash>=Time.time-2;
 			}
 			//first_jump = first_jump && (!m_IsGrounded);
-
 		}
 		public void Move(Vector3 move, bool crouch, bool jump)
 		{
@@ -174,11 +194,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			Vector3 extraGravityForce = (Physics.gravity * m_GravityMultiplier) - Physics.gravity;
 			m_Rigidbody.AddForce(extraGravityForce);
 			m_GroundCheckDistance = m_Rigidbody.velocity.y < 0 ? m_OrigGroundCheckDistance : 0.01f;
-			m_Rigidbody.velocity = new Vector3(0, m_Rigidbody.velocity.y, 0);
-			if (Input.GetAxis("Vertical") > 0 ){
-				m_Rigidbody.AddForce(m_Rigidbody.transform.forward *1000);//constante pour déplacement vers l'avant aérien
-				m_Animator.SetFloat("Jump", m_Rigidbody.velocity.y);
+			if (!in_dash) {
+				m_Rigidbody.velocity = new Vector3 (0, m_Rigidbody.velocity.y, 0);
+				if (Input.GetAxis ("Vertical") > 0) {
+					m_Rigidbody.AddForce (m_Rigidbody.transform.forward * 1000);//constante pour déplacement vers l'avant aérien
+					m_Animator.SetFloat ("Jump", m_Rigidbody.velocity.y);
 			}
+		}
 		}
 		
 		

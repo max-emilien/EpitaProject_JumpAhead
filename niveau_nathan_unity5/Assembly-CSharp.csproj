@@ -46,37 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\AbstractClasses\CustomActionScript.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\AbstractClasses\CustomEventScript.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CAApplyForce.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CAApplyForceOnTarget.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CADebugLogMessage.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CADestroyGameObject.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CALoadLevel.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CANextLevel.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CAPrefabSpawner.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CAPrintCustomMessageOnGUIForSeconds.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CASetActiveGameObjectProperty.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CASetRigidBodyKinematicProperty.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CATeleport.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Actions\CATeleportTarget.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnAwake.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnCollisionEnter.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnCollisionExit.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnDestroy.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnDisable.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnEnable.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnMouseDown.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnStart.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnTriggerEnter.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnTriggerExit.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\EventActionFramework\Events\CEOnUpdate.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\MiscelaneousScript\DisableMouseCursorScript.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\MiscelaneousScript\PlayerScript.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\MovementScripts\JumpScript.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\MovementScripts\MoveScript.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\ViewScripts\PitchScript.cs" />
-     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\ViewScripts\YawScript.cs" />
      <Compile Include="Assets\Scripts\Change_Camera.cs" />
      <Compile Include="Assets\Scripts\CharacterColision.cs" />
      <Compile Include="Assets\Scripts\Finish.cs" />
