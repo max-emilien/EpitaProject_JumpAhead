@@ -86,7 +86,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (rechargement_dash) {  // rechargement du dash
 				rechargement_dash = time_start_rechargement_dash>=Time.time-2;
 			}
-			//first_jump = first_jump && (!m_IsGrounded);
+			first_jump = first_jump && (!m_IsGrounded);
 		}
 		public void Move(Vector3 move, bool crouch, bool jump)
 		{
