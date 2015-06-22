@@ -106,6 +106,7 @@
      <Compile Include="Assets\Scripts\interrupteur.cs" />
      <Compile Include="Assets\Scripts\loadlevel.cs" />
      <Compile Include="Assets\Scripts\rotation_souris.cs" />
+     <Compile Include="Assets\Scripts\suiviPlateformeMouvante.cs" />
      <None Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />

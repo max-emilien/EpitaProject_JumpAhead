@@ -41,6 +41,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+		public bool in_dash;
+		private float start_dash;
+		public bool rechargement_dash;
+		private float start_rechargement_dash;
 
         // Use this for initialization
         private void Start()
@@ -55,6 +59,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+			in_dash = false;
+			rechargement_dash = true;
         }
 
 
@@ -105,9 +111,25 @@ namespace UnityStandardAssets.Characters.FirstPerson
                                m_CharacterController.height/2f);
             desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
-            m_MoveDir.x = desiredMove.x*speed;
-            m_MoveDir.z = desiredMove.z*speed;
-
+				m_MoveDir.x = desiredMove.x * speed;
+				m_MoveDir.z = desiredMove.z * speed;
+			if ((Input.GetKey(KeyCode.A))&&(!in_dash)&&(!rechargement_dash)) {
+				m_MoveDir.x = m_MoveDir.x * 0;
+				m_MoveDir.z = m_MoveDir.z * 1000;
+				in_dash = true;
+				start_dash = Time.time;
+			} 
+			if (in_dash) {
+				in_dash = (start_dash +2 > Time.time);
+				if (!in_dash)
+				{
+					rechargement_dash = true;
+					start_rechargement_dash = Time.time;
+				}
+			}
+			if (rechargement_dash) {
+				rechargement_dash = (start_rechargement_dash +2 > Time.time);
+			}
 
             if (m_CharacterController.isGrounded)
             {
