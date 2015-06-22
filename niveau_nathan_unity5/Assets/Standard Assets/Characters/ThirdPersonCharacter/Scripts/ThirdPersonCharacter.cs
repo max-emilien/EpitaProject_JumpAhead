@@ -18,7 +18,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		
 		Rigidbody m_Rigidbody;
 		Animator m_Animator;
-		bool m_IsGrounded;
+		public bool m_IsGrounded;
+		public bool is_grounded_before;
 		float m_OrigGroundCheckDistance;
 		const float k_Half = 0.5f;
 		float m_TurnAmount;
@@ -28,7 +29,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		Vector3 m_CapsuleCenter;
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
-		private bool first_jump; // nathan : ajout de cette ligne
+		public bool first_jump; // nathan : ajout de cette ligne
 		public bool possibilite_dash; // nathan : ajout de cette ligne
 		private bool in_dash;
 		private bool rechargement_dash;
@@ -86,7 +87,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (rechargement_dash) {  // rechargement du dash
 				rechargement_dash = time_start_rechargement_dash>=Time.time-2;
 			}
-			first_jump = first_jump && (!m_IsGrounded);
+			first_jump = ((!m_IsGrounded) && (first_jump || (is_grounded_before)));
+			is_grounded_before = m_IsGrounded;
 		}
 		public void Move(Vector3 move, bool crouch, bool jump)
 		{
@@ -209,9 +211,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (!in_dash) {
 				m_Rigidbody.velocity = new Vector3 (0, m_Rigidbody.velocity.y, 0);
 				if (Input.GetAxis ("Vertical") > 0) {
-					m_Rigidbody.AddForce (m_Rigidbody.transform.forward * 1000);//constante pour déplacement vers l'avant aérien
+					m_Rigidbody.AddForce (m_Rigidbody.transform.forward * 500);//constante pour déplacement vers l'avant aérien
 					m_Animator.SetFloat ("Jump", m_Rigidbody.velocity.y);
 			}
+				else if (Input.GetAxis("Vertical") > 0) {
+					m_Rigidbody.AddForce (m_Rigidbody.transform.forward * -200);//constante pour déplacement vers l'avant aérien
+					m_Animator.SetFloat ("Jump", m_Rigidbody.velocity.y);
+				}
 		}
 		}
 		
@@ -226,7 +232,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_IsGrounded = false;
 				m_Animator.applyRootMotion = false;
 				m_GroundCheckDistance = 0.1f;
-				first_jump = (!first_jump); //nathan :  ajout de cette ligne
+				first_jump = !first_jump;
 			}
 		}
 		
