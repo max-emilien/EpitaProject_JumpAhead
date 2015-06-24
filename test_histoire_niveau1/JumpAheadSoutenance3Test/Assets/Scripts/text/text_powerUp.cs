@@ -8,6 +8,7 @@ public class text_powerUp : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
 	{
 		guitext.gameObject.SetActive (true);
+		guitext.GetComponent<text_level1>().set_start();
 		guitext.text = "Voici un petit cadeau pour t'aider à continuer ton voyage.\n(Cliquez pour continuer.)";
 
 	}
