@@ -20,7 +20,11 @@ public class PersoRespawn : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.gameObject.tag == "WayPoints") {
 			spawn = other.transform.position;
-			other.gameObject.SetActive(false);
+			if (other.gameObject.name != "WayPoint3")
+			{
+				other.gameObject.SetActive(false);
+			}
+
 			//Destroy(other.gameObject, 5f);
 
 		}

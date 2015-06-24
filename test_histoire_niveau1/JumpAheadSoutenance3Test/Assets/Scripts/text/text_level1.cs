@@ -4,16 +4,16 @@ using System.Collections;
 
 public class text_level1 : MonoBehaviour {
 	Text guitext;
-	public string textWanted;
+	float start;
 	void Start () 
 	{
 		guitext =  this.gameObject.GetComponent<Text> ();
-		textWanted  = "Voici la première épreuve à relever.\n(Cliquez pour continuer.)";
+		guitext.text  = "Voici la première épreuve à relever.\n(Cliquez pour continuer.)";
+		start = Time.time;
 	}
 	void Update()
 	{
-		guitext.text = textWanted;
-		if (Input.GetKey (KeyCode.Mouse0)) {
+		if ((Input.GetKey (KeyCode.Mouse0))&&(Time.time - 1 > start)) {
 			gameObject.SetActive(false);
 		}
 	}

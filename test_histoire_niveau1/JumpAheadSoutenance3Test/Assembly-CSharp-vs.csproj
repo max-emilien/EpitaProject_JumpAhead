@@ -147,7 +147,9 @@
      <Compile Include="Assets\Scripts\save\level 1\script\save_doubleJump.cs" />
      <Compile Include="Assets\Scripts\save\level 1\script\save_flammePendule.cs" />
      <Compile Include="Assets\Scripts\save\level 1\script\save_flammeTemple.cs" />
+     <Compile Include="Assets\Scripts\text\text_enigme1.cs" />
      <Compile Include="Assets\Scripts\text\text_level1.cs" />
+     <Compile Include="Assets\Scripts\text\text_powerUp.cs" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Plugins\release_history.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
