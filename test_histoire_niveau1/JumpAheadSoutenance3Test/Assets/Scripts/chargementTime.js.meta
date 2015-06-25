@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dcde1824f1d3a734b93bea5ce54920e2
+timeCreated: 1435242085
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - progressBarEmpty: {fileID: 2800000, guid: 3f9ab925fc2ada548a8243532f540068, type: 3}
+  - progressBarFull: {fileID: 2800000, guid: 4a3d22087d7d7ac46b2779cf9532fd41, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

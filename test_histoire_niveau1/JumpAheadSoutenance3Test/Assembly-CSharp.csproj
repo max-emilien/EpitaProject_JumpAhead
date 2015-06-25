@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ChargeTime.cs" />
      <Compile Include="Assets\MultiScripts\MultiRespawn.cs" />
      <Compile Include="Assets\NetworkCharacter.cs" />
      <Compile Include="Assets\NetworkManager.cs" />
@@ -114,6 +115,7 @@
      <Compile Include="Assets\Scripts\Change_Camera.cs" />
      <Compile Include="Assets\Scripts\CharacterColision.cs" />
      <Compile Include="Assets\Scripts\CharacterMotor.cs" />
+     <Compile Include="Assets\Scripts\Chargement.cs" />
      <Compile Include="Assets\Scripts\FPSInputController.cs" />
      <Compile Include="Assets\Scripts\Finish.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController2.cs" />

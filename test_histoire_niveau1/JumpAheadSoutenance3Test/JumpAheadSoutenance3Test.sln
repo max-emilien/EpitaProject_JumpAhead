@@ -7,6 +7,8 @@ Project("{2C334209-9F62-3A05-5771-114100DF996D}") = "JumpAheadSoutenance3Test", 
 EndProject
 Project("{2C334209-9F62-3A05-5771-114100DF996D}") = "JumpAheadSoutenance3Test", "Assembly-CSharp-Editor.csproj", "{9D6A2F4D-A0D0-DA1A-F354-AD83D438C180}"
 EndProject
+Project("{2C334209-9F62-3A05-5771-114100DF996D}") = "JumpAheadSoutenance3Test", "Assembly-UnityScript.unityproj", "{93485AF5-CF2A-1923-82EC-50FD702637A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{9D6A2F4D-A0D0-DA1A-F354-AD83D438C180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D6A2F4D-A0D0-DA1A-F354-AD83D438C180}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D6A2F4D-A0D0-DA1A-F354-AD83D438C180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93485AF5-CF2A-1923-82EC-50FD702637A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93485AF5-CF2A-1923-82EC-50FD702637A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93485AF5-CF2A-1923-82EC-50FD702637A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93485AF5-CF2A-1923-82EC-50FD702637A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																								GlobalSection(MonoDevelopProperties) = preSolution
+																																														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
