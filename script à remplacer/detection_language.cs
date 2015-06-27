@@ -11,6 +11,24 @@ public class detection_language {
 			return english;
 		}
 	}
+    public static string text_language(bool booleen)
+    {
+        if (PlayerPrefs.GetInt("language", 0) == 0)
+        {
+            if (booleen)
+            {
+                return "vrai";
+            }
+            else
+            {
+                return "faux";
+            }
+        }
+        else
+        {
+            return booleen.ToString();
+        }
+    }
     public static void set_fr()
     {
         PlayerPrefs.SetInt("language", 0);
