@@ -152,6 +152,7 @@
      <Compile Include="Assets\Scripts\save\level 1\script\save_doubleJump.cs" />
      <Compile Include="Assets\Scripts\save\level 1\script\save_flammePendule.cs" />
      <Compile Include="Assets\Scripts\save\level 1\script\save_flammeTemple.cs" />
+     <Compile Include="Assets\Scripts\text\detection_language.cs" />
      <Compile Include="Assets\Scripts\text\text_enigme1.cs" />
      <Compile Include="Assets\Scripts\text\text_level1.cs" />
      <Compile Include="Assets\Scripts\text\text_powerUp.cs" />

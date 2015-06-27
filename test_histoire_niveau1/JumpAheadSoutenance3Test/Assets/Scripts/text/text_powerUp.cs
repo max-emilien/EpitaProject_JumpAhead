@@ -9,7 +9,6 @@ public class text_powerUp : MonoBehaviour {
 	{
 		guitext.gameObject.SetActive (true);
 		guitext.GetComponent<text_level1>().set_start();
-		guitext.text = "Voici un petit cadeau pour t'aider à continuer ton voyage.\n(Cliquez pour continuer.)";
-
+		guitext.text = detection_language.text_language( "Voici un petit cadeau pour t'aider à continuer ton voyage.\n(Cliquez pour continuer.)", "This is a little present to help you to continue your trip.\n(click to continue.)");
 	}
 }

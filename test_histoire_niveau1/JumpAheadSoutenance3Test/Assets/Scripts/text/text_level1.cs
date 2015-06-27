@@ -11,7 +11,7 @@ public class text_level1 : MonoBehaviour {
 	void Start () 
 	{
 		guitext =  this.gameObject.GetComponent<Text> ();
-		guitext.text  = "Voici la première épreuve à relever.\n(Cliquez pour continuer.)";
+		guitext.text  =  detection_language.text_language( "Voici la première épreuve à relever.\n(Cliquez pour continuer.)", "This is the first challenge to overcome.\n(click to continue)");
 		start = Time.time;
 		script = perso.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController2> ();
 	}
