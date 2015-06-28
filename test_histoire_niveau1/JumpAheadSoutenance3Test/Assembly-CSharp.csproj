@@ -139,9 +139,12 @@
      <Compile Include="Assets\Scripts\audio\scripts\Start_level.cs" />
      <Compile Include="Assets\Scripts\audio\scripts\lancement_musique.cs" />
      <Compile Include="Assets\Scripts\audio\scripts\stop_musique.cs" />
+     <Compile Include="Assets\Scripts\changementMode.cs" />
      <Compile Include="Assets\Scripts\changement_text.cs" />
      <Compile Include="Assets\Scripts\enigme1.cs" />
      <Compile Include="Assets\Scripts\interrupteur.cs" />
+     <Compile Include="Assets\Scripts\langue_text_button.cs" />
+     <Compile Include="Assets\Scripts\langue_text_texture.cs" />
      <Compile Include="Assets\Scripts\rotation_souris.cs" />
      <Compile Include="Assets\Scripts\save\level 1\script\end_level1.cs" />
      <Compile Include="Assets\Scripts\save\level 1\script\loadLevel1.cs" />

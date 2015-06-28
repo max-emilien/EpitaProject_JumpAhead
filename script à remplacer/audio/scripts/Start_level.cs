@@ -7,7 +7,7 @@ public class Start_level : MonoBehaviour {
 	private float start;
 	// Use this for initialization
 	void Start () {
-		Cursor.visible  = false;
+		//Cursor.visible  = false;
 		audio_source.clip = audio_clip;
 		Play ();
 		start = Time.time;
@@ -45,4 +45,12 @@ public class Start_level : MonoBehaviour {
 	{
 		audio_source.Stop ();
 	}
+    public void Mute()
+    {
+        audio_source.mute = true;
+    }
+    public void UnMute()
+    {
+        audio_source.mute = false;
+    }
 }

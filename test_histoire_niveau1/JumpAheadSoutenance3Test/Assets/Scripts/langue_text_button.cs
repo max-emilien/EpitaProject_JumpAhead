@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
-public class langue_text_button
+public class langue_text_button : MonoBehaviour
 {
     public Text guitext;
     public string fr_phrase;
